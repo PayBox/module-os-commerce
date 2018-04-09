@@ -50,7 +50,7 @@
  * @access protected
  */
 
-    protected $_author_www = 'https://paybox.kz/';
+    protected $_author_www = 'https://paybox.money/';
 
 /**
  * The status of the module
@@ -150,11 +150,11 @@
                     array('title' => 'Кодовое слово',
                           'key' => 'MODULE_PAYMENT_PLATRON_MERCHANT_SECRET_KEY',
                           'value' => '',
-                          'description' => 'Секретный ключ магазина(см. в paybox.kz/admin).',
+                          'description' => 'Секретный ключ магазина(см. в my.paybox.money).',
                           'group_id' => '6'),
 		  			array('title' => 'Action URL to PayBox',
                           'key' => 'MODULE_PAYMENT_PLATRON_ACTION_URL',
-                          'value' => 'https://paybox.kz/payment.php',
+                          'value' => 'https://api.paybox.money/payment.php',
                           'description' => 'URL На который делать запрос, при создании транзакции',
                           'group_id' => '6'),
                     array('title' => 'Transaction lifetime',
